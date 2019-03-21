@@ -1,0 +1,138 @@
+body {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.2em;
+}
+
+h1, h2, h3 {
+	font-weight: 300;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	border-bottom: 2px solid #7f97ad;
+	align-items: center;
+	padding-top: 0.2em;
+}
+
+.header_logo img {
+	width: 100%;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.header_title {
+	width: 80%;
+	text-align: right;
+	text-transform: uppercase;
+	line-height: 1.7em;
+	color: #2d3c49;
+}
+
+.hero {
+	width: 100%;
+	padding-top: 1em;
+	min-height: 300px;
+	object-fit: cover;
+	object-position: 30%;
+}
+
+.featured_work, .featured_elements_container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.featured_work h2 {
+	color: #7f97ad;
+	font-weight: bolder;
+	padding-left: 0.2em;	
+	margin-top: 1.5em;
+    margin-bottom: 0.83em;
+}
+
+.featured_element {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 3em;
+	color: #2d3c49;
+	overflow: hidden;
+  	white-space: nowrap;
+  	text-overflow: ellipsis;
+}
+
+.featured_element h3 {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.featured_image {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	object-position: 100% 10%;
+}
+
+footer {
+	width: 100%;
+	display: flex;
+	border-top: 1px solid #7f97ad;
+	justify-content: center;
+}
+
+.footer_element {
+	padding-top: 0.5em;
+	align-items: center;
+    display: flex;
+}
+
+@media screen and (max-width: 285px){
+	.header {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.header_logo {
+		width: 100%;
+		text-align: center;	
+	}
+
+	.header_title {
+		text-align: center;
+		width:100%;
+	}
+}
+
+@media screen and (min-width: 515px){
+	.header_logo {
+		width: 20%;
+	}
+}
+
+@media screen and (min-width: 768px){
+	.featured_elements_container {
+		justify-content: space-between;
+	}
+
+	.featured_element {
+		width: 32%;
+	}
+}
+
+@media screen and (min-width: 900px){
+	body {
+		width: 900px;
+		margin: auto;
+	}	
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+footer {
+  height: 50px;
+}
