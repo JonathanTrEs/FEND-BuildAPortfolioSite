@@ -7,9 +7,9 @@ All resources used on the project are free
 - Icons from:  https://www.iconfinder.com/
 
 ### How to
-Download the project and open `index.html` with you favourite browser.
+- Download the project and open `index.html` with you favourite browser.
 Or
-Open navigate to my [GH Pages](https://jonathantres.github.io/FEND-BuildAPortfolioSite/)
+- Navigate to my [GH Pages](https://jonathantres.github.io/FEND-BuildAPortfolioSite/)
 
 ### Author 
 _Jonathan Trujillo Estevez_
